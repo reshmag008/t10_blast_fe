@@ -157,7 +157,7 @@ const [approvingPlayerId, setApprovingPlayerId] = useState<number | null>(null);
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 sm:gap-6">
             <div className="text-center sm:text-left">
               <h1 className="font-heading font-extrabold text-2xl sm:text-3xl md:text-4xl mb-1 sm:mb-2">
-              Nileshwar Premier League - Season 11  - Player Roster
+              T10 BLAST  - Player Roster
               </h1>
               <p className="text-primary-foreground/80 text-sm sm:text-lg">
                 {players ? players.length : 0} {players &&players.length === 1 ? 'player' : 'players'} registered for auction
@@ -172,7 +172,7 @@ const [approvingPlayerId, setApprovingPlayerId] = useState<number | null>(null);
           </div>
 
           
-          <div className="flex flex-col sm:flex-row items-center sm:gap-6">
+          {/* <div className="flex flex-col sm:flex-row items-center sm:gap-6">
 
             {allTeams && allTeams.length>0 && (
                 <select
@@ -216,7 +216,7 @@ const [approvingPlayerId, setApprovingPlayerId] = useState<number | null>(null);
 
                   <PDFCreator playerList={players} teamName={selectedTeamName}/>
 
-      </div>
+      </div> */}
 
 
         </div>

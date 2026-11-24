@@ -116,7 +116,7 @@ const generatePDF = async () => {
         font-size:30px;
         font-weight:900;
         letter-spacing:4px;
-      ">NILESHWAR PREMIER LEAGUE SEASON 11</div>
+      ">T10 BLAST</div>
 
      
 
@@ -348,7 +348,7 @@ const generatePDF = async () => {
     pdf.save(
       teamName
         ? `${teamName}.pdf`
-        : "Nileshwar Premier League Season 11.pdf"
+        : "T10_Blast.pdf"
     );
 
   } catch (error) {
